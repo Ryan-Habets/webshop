@@ -4,11 +4,7 @@ body {
 }
 
 .Banner {
-<<<<<<< HEAD
     background-image: linear-gradient(rgba(231, 247, 248, 0.932), rgba(255, 255, 255, 0)), url("WhiteAndBlue.png");
-=======
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)), url("BlackAndRed.jpg");
->>>>>>> 9c3043f04231349a35377d9547c23140569102f8
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,3 +22,4 @@ body {
   font-size: 4.5rem;
   
 }
+

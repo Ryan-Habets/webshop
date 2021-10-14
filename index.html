@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Stylesheet.css">
+    <script type="text/javascript" src="javascript.js">
+    </script>
+    <style>
+        
+    </style>
 </head>
 <body>
 
@@ -15,12 +20,37 @@
             <h1 class="Header-text">
                 TransIP
             </h1>
-        
 
-
-
+            <div class="MenuButton">
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#">Home</a>
+                        <a href="#">Computers</a>
+                        <a href="#">Hardware</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            
+                <div class="menuknopkruis">
+                    <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+                </div>
+              
+                    <script>
+                     function openNav() {
+                     document.getElementById("myNav").style.width = "100%";
+                     }
+              
+                    function closeNav() {
+                     document.getElementById("myNav").style.width = "0%";
+                     }
+                    </script>
+            </div>
+    
     </div>
 
+
+    
 
     
 </body>

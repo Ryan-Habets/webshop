@@ -1,6 +1,11 @@
 body {
   margin: 0;
 
+
+}
+
+h1 {
+  font-family: 'Courier New', monospace;
 }
 
 .Banner {
@@ -14,12 +19,12 @@ body {
   }
 
 .Header-text {
-  font-family:Georgia, 'Times New Roman', Times, serif;
   color: #4682B4;
   margin-left: 100px;
   margin-top: 100px;
   position: absolute;
   font-size: 4.5rem;
+  
   
 }
 
@@ -80,5 +85,18 @@ body {
 
 .menuknopkruis:hover {
   color: #F7882F;
-  
+  }
+
+.MenuButton {
+  position: relative;
+  left: 92%;
+  top: -117px;
+  width: 120px;
+}
+
+.Logo {
+  position: relative;
+  top: 75px;
+  left: 30px;
+
 }

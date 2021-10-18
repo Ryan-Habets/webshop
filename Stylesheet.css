@@ -4,9 +4,7 @@ body {
 
 }
 
-h1 {
-  font-family: 'Courier New', monospace;
-}
+
 
 .Banner {
     background-image: linear-gradient(rgba(231, 247, 248, 0.932), rgba(255, 255, 255, 0)), url("WhiteAndBlue.jpg");
@@ -99,4 +97,21 @@ h1 {
   top: 75px;
   left: 30px;
 
+}
+h1 {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #F7882F;
+}
+
+h2 {
+  text-align: center;
+
+  color: #1C325B;
+}
+
+p {
+  text-align: center;
+  max-width: 750px;
+  margin-left: 390px;
 }

@@ -6,8 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TransIP</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="Icon" href="android-icon-36x36.png">
+
+
 </head>
 <body>
+
+    <div class="Banner">
+    
+        <div class="Logo">
+            <img src="LogoTransIP.png" alt="Logo">
+        </div>
+
+        <div class="MenuButton">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="Computers.html">Computers</a>
+                    <a href="Hardware.html">Hardware</a>
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </div>
+        
+            <div class="menuknopkruis">
+                <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+            </div>
+          
+                <script>
+                 function openNav() {
+                 document.getElementById("myNav").style.width = "100%";
+                 }
+          
+                function closeNav() {
+                 document.getElementById("myNav").style.width = "0%";
+                 }
+                </script>
+        </div>
+
+</div>   
     
 </body>
 </html>

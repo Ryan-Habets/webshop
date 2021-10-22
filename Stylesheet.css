@@ -27,7 +27,7 @@ body {
 }
 
 
-.overlay {
+.overlay1 {
   height: 100%;
   width: 0;
   position: fixed;
@@ -48,7 +48,7 @@ body {
   margin-top: 30px;
 }
 
-.overlay a {
+.overlay1 a {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
@@ -57,11 +57,11 @@ body {
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay1 a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
 
-.overlay .closebtn {
+.overlay1 .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;

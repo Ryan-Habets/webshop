@@ -5,11 +5,7 @@ body {
   
   }
 
-#max-width-1920 {
-  max-width: 1500px;
-  margin: 0 auto;
 
-}
   
   
   
@@ -48,7 +44,7 @@ body {
   }
   
   .overlay-content {
-    position: relative;
+    position: absolute;
     top: 25%;
     width: 100%;
     text-align: center;

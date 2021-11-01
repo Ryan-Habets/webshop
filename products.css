@@ -150,10 +150,18 @@ body {
     
   }
   
-  .image {
+  .image1 {
     display: block;
     width: 90%;
     height: 200px;
+    padding: 30px;
+  }
+  
+  .image2 {
+    display: block;
+    width: 75%;
+    height: 250px;
+    padding: 40px;
   }
   
   .overlaypc {

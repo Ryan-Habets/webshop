@@ -110,3 +110,40 @@ body {
     color: #969494;
     font-family: sans-serif;
     }
+
+
+
+
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+
+
+
+
+
+
+
+h4 {
+
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+}  
+</style>
+</head>
+<body>
+<div class="footer">All Rights Reserved</div>
+</body>
+}
+
+h2{
+  : center;
+}

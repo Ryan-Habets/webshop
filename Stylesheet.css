@@ -99,21 +99,12 @@ body {
 
 }
 h1 {
-  text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #F7882F;
-}
-
-h2 {
-  text-align: center;
-
-  color: #1C325B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 p {
-  text-align: center;
-  max-width: 750px;
-  margin-left: 390px;
+  font-family: ;
 }
 
 
@@ -131,6 +122,25 @@ p {
   left: 850px;
   
 }
+
+.text-right {
+text-align: right;
+border: #F7882F;
+
+}
+
+
+
+.text-left {
+  text-align: left;
+
+}
+
+.text-bottom {
+  
+
+}
+
 
  
   

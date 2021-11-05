@@ -118,25 +118,44 @@ p {
 }
 .Image1 {
   position: relative;
-  top: 10px;
+  top: 30px;
   left: 850px;
   
 }
 
 .text-right {
-text-align: right;
+
 border: #F7882F;
+box-sizing: border-box;
+width: 230px;
+height: 250px;
+margin-left: 1200px;
+margin-top: -105px;
+text-align: right;
+
+
+
 
 }
 
 
 
 .text-left {
-  text-align: left;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  margin-left: 90px;
+
 
 }
 
 .text-bottom {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 155px;
   
 
 }
